@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R. Padmabhushani | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+    body { font-family: 'Poppins', sans-serif; background: #0a192f; color: #ccd6f6; line-height: 1.6; }
+    nav { background: #112240; padding: 1rem; text-align: center; position: sticky; top: 0; z-index: 1000; }
+    nav a { color: #64ffda; margin: 0 1rem; text-decoration: none; font-weight: 600; transition: color 0.3s ease; }
+    nav a:hover { color: #ffffff; }
+    header { padding: 4rem 2rem; text-align: center; background: #0a192f; animation: fadeIn 2s ease-in-out; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #64ffda; }
+    header p { font-size: 1.2rem; color: #8892b0; }
+    section { padding: 3rem 2rem; max-width: 1000px; margin: auto; opacity: 0; transform: translateY(20px); transition: opacity 1s ease-out, transform 1s ease-out; }
+    section.visible { opacity: 1; transform: translateY(0); }
+    h2 { margin-bottom: 1rem; color: #64ffda; }
+    .projects, .skills, .education, .certifications, .activities, .contact { margin-top: 2rem; }
+    .project, .edu-item, .cert-item, .skill-list li, .activity-list li { margin-bottom: 1rem; }
+    ul { list-style: none; }
+    footer { text-align: center; padding: 2rem; background: #112240; color: #64ffda; margin-top: 2rem; }
+    .btn { display: inline-block; margin-top: 1rem; padding: 0.7rem 1.5rem; background: #64ffda; color: #0a192f; border-radius: 5px; text-decoration: none; font-weight: 600; transition: background 0.3s ease, color 0.3s ease; }
+    .btn:hover { background: #0a192f; color: #64ffda; border: 1px solid #64ffda; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#activities">Activities</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header>
+  <h1>R. Padmabhushani</h1>
+  <p>Aspiring Data Analyst | Software Quality Enthusiast | Lifelong Learner</p>
+  <a href="padmabhushanir_21BCS3795.pdf" download class="btn">Download Resume</a>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Motivated and enthusiastic data analyst, passionate about creating visual insights using Power BI and other tools. With a fresh and analytical approach, I aim to contribute quality-driven solutions in data science and software quality assurance.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project"><h3>Adaptive Multi-Context RAG (Current)</h3><p>Context-aware resume tailoring and optimized information retrieval system aligning resumes to job descriptions.</p></div>
+    <div class="project"><h3>Real-Time Fraud Detection (Nov 2024)</h3><p>Fraud detection using LLMs and RAG, enhancing accuracy and reducing false positives.</p></div>
+    <div class="project"><h3>Healthcare Data Analytics (Jun 2024)</h3><p>Data preprocessing and ML model development with Python, Pandas, NumPy.</p></div>
+    <div class="project"><h3>IoT-Based Wireless Sensor Network (Dec 2023)</h3><p>Sensor interfacing with Arduino, MQTT communication, Python data analysis.</p></div>
+    <div class="project"><h3>Gender Gap Analysis (Jun 2023)</h3><p>Workforce disparity analysis using R and ggplot2 visualization tools.</p></div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul class="skill-list">
+    <li>Python</li>
+    <li>HTML</li>
+    <li>Operating Systems</li>
+    <li>Data Analytics</li>
+    <li>DBMS</li>
+    <li>SQL</li>
+    <li>Apache Spark</li>
+    <li>Apache Hadoop</li>
+    <li>Power BI</li>
+    <li>Tableau</li>
+  </ul>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="education">
+    <div class="edu-item">Chandigarh University (2021-25) — B.E. Big Data Analytics [7.17 CGPA]</div>
+    <div class="edu-item">KV 3 BRD Chandigarh (2020-21) — Secondary School Certificate [7.5 CGPA]</div>
+    <div class="edu-item">KV No.1 Pune (2018-19) — Senior Secondary Certificate [7.34 CGPA]</div>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="certifications">
+    <div class="cert-item">Introduction to NoSQL Databases</div>
+    <div class="cert-item">Microsoft Power BI</div>
+    <div class="cert-item">Oracle Database Foundation</div>
+    <div class="cert-item">Data Warehousing and Business Intelligence</div>
+    <div class="cert-item">Data Science at Scale Specialization</div>
+    <div class="cert-item">Data Visualization with Python</div>
+    <div class="cert-item">NoSQL, Big Data, and Spark Foundation and Specialization</div>
+    <div class="cert-item">TCS National Qualifier Test (NQT) [66.15] (Feb 2025)</div>
+  </div>
+</section>
+
+<section id="activities">
+  <h2>Co-Curricular Activities</h2>
+  <ul class="activity-list">
+    <li>Participated in dance competitions</li>
+    <li>Volunteer in NSS</li>
+    <li>Event organizer</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Phone: +91 7083971285</p>
+  <p>Email: padmabhushanir@gmail.com</p>
+  <p><a href="https://www.linkedin.com/in/padmabhushani-r-41a9b6230" target="_blank">LinkedIn Profile</a></p>
+</section>
+
+<footer>
+  &copy; 2025 R. Padmabhushani | All rights reserved.
+</footer>
+
+<script>
+  const sections = document.querySelectorAll('section');
+  const revealSection = () => {
+    sections.forEach(section => {
+      const sectionTop = section.getBoundingClientRect().top;
+      if(sectionTop < window.innerHeight - 100){
+        section.classList.add('visible');
+      }
+    });
+  };
+  window.addEventListener('scroll', revealSection);
+  window.addEventListener('load', revealSection);
+</script>
+
+</body>
+</html>
